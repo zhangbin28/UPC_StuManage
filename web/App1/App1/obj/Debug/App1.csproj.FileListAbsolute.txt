@@ -1,0 +1,4 @@
+D:\UPC_StuManage\web\App1\App1\bin\App1.dll
+D:\UPC_StuManage\web\App1\App1\bin\App1.pdb
+D:\UPC_StuManage\web\App1\App1\obj\Debug\App1.dll
+D:\UPC_StuManage\web\App1\App1\obj\Debug\App1.pdb
