@@ -106,12 +106,30 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BiYeXinXi.aspx" />
+    <Content Include="DaoShi.aspx" />
     <Content Include="index.aspx" />
+    <Content Include="KeYanLunWen.aspx" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Web.config" />
+    <Content Include="ZhaoSheng.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BiYeXinXi.aspx.cs">
+      <DependentUpon>BiYeXinXi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BiYeXinXi.aspx.designer.cs">
+      <DependentUpon>BiYeXinXi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DaoShi.aspx.cs">
+      <DependentUpon>DaoShi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DaoShi.aspx.designer.cs">
+      <DependentUpon>DaoShi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -119,7 +137,21 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="KeYanLunWen.aspx.cs">
+      <DependentUpon>KeYanLunWen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KeYanLunWen.aspx.designer.cs">
+      <DependentUpon>KeYanLunWen.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZhaoSheng.aspx.cs">
+      <DependentUpon>ZhaoSheng.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ZhaoSheng.aspx.designer.cs">
+      <DependentUpon>ZhaoSheng.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
