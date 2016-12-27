@@ -94,6 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bottom.aspx" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="index.html" />
+    <Content Include="left.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -108,10 +112,10 @@
   <ItemGroup>
     <Content Include="BiYeXinXi.aspx" />
     <Content Include="DaoShi.aspx" />
-    <Content Include="index.aspx" />
     <Content Include="KeYanLunWen.aspx" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="top.aspx" />
     <Content Include="Web.config" />
     <Content Include="ZhaoSheng.aspx" />
   </ItemGroup>
@@ -123,19 +127,19 @@
     <Compile Include="BiYeXinXi.aspx.designer.cs">
       <DependentUpon>BiYeXinXi.aspx</DependentUpon>
     </Compile>
+    <Compile Include="bottom.aspx.cs">
+      <DependentUpon>bottom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bottom.aspx.designer.cs">
+      <DependentUpon>bottom.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DaoShi.aspx.cs">
       <DependentUpon>DaoShi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DaoShi.aspx.designer.cs">
       <DependentUpon>DaoShi.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="KeYanLunWen.aspx.cs">
       <DependentUpon>KeYanLunWen.aspx</DependentUpon>
@@ -144,7 +148,21 @@
     <Compile Include="KeYanLunWen.aspx.designer.cs">
       <DependentUpon>KeYanLunWen.aspx</DependentUpon>
     </Compile>
+    <Compile Include="left.aspx.cs">
+      <DependentUpon>left.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="left.aspx.designer.cs">
+      <DependentUpon>left.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="top.aspx.cs">
+      <DependentUpon>top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="top.aspx.designer.cs">
+      <DependentUpon>top.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ZhaoSheng.aspx.cs">
       <DependentUpon>ZhaoSheng.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
